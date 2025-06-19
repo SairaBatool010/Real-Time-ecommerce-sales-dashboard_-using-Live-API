@@ -1,4 +1,4 @@
-🛍️ Real-Time E-Commerce Sales Dashboard
+###🛍️ Real-Time E-Commerce Sales Dashboard
 
 This project simulates a real-time e-commerce sales pipeline using the Fake Store API ([https://fakestoreapi.com/](https://fakestoreapi.com/)), stores data in a local SQLite database, and connects the data to Power BI for real-time visualization and insights.
 
