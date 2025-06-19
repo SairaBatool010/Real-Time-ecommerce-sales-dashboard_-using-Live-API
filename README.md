@@ -1,3 +1,42 @@
+🛍️ Real-Time E-Commerce Sales Dashboard
+
+This project simulates a real-time e-commerce sales pipeline using the Fake Store API ([https://fakestoreapi.com/](https://fakestoreapi.com/)), stores data in a local SQLite database, and connects the data to Power BI for real-time visualization and insights.
+
+---
+
+📌 Project Overview
+
+In this project, I simulate real-time product sales for an e-commerce store and build a dynamic dashboard to monitor key sales KPIs such as:
+
+* Revenue trends
+* Product and category performance
+* Quantity sold
+* Hourly sales breakdown
+
+The pipeline mimics how real-time sales systems work in companies, providing a data analyst-friendly structure that can be easily extended to cloud-based environments.
+
+---
+
+🔧 Tech Stack
+
+| Component   | Technology                                                              |
+| ----------- | ----------------------------------------------------------------------- |
+| API Source  | Fake Store API ([https://fakestoreapi.com/](https://fakestoreapi.com/)) |
+| Programming | Python 3                                                                |
+| Database    | SQLite                                                                  |
+| Dashboard   | Power BI                                                                |
+| Scheduling  | Manual simulation via `time.sleep()`                                    |
+
+---
+
+📂 Project Structure
+
+real\_time\_ecommerce\_sales\_dashboard/
+├── fetch\_data.py          — Fetches product data from FakestoreAPI
+├── db\_utils.py            — Initializes DB and inserts simulated sales
+├── sales\_simulator.py     — Main script to simulate and store sales every 10 seconds
+├── sales\_data.db          — SQLite DB file (auto-created)
+├── README.md              — Project documentation
 
 ## 🧪 How to Run the Project
 
